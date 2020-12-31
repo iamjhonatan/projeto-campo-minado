@@ -24,6 +24,7 @@ public class Tabuleiro {
         sortearMinas();
     }
 
+    // Usnado a Stream paralela visando também mais velocidade no algoritmo
     public void abrir(int linha, int coluna){
         try {
             campos.parallelStream()
